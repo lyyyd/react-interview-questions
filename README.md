@@ -381,16 +381,20 @@
 
 ## Core React
 
-1.  ### What is React? (什么是React)
-
+1.  ### What is React? 
+    
+    (什么是React)
+    
     React(又名React.js或ReactJS)是一个开源的前端JavaScript库，用于构建可组合的用户界面，特别是单页应用程序。它用于以声明的方式处理基于组件的web和移动应用程序的视图层。
 
     React是由为Facebook工作的软件工程师[Jordan walker](https://github.com/jordwalke)创建的。React于2011年首次部署在Facebook的News Feed上，2012年部署在Instagram上。
 
     **[⬆ 返回顶部](#table-of-contents)**
 
-2. ### What is the history behind React evolution? (React进化背后的历史是什么?)
+2. ### What is the history behind React evolution? 
     
+    (React进化背后的历史是什么?)
+
     ReactJS的历史始于2010年**XHP**的创建。XHP是一种PHP扩展，它改进了该语言的语法，使XML文档片段成为有效的PHP表达式，其主要目的是创建自定义和可重用的HTML元素。
 
     这个扩展的主要原则是使前端代码更容易理解，并帮助避免跨站点脚本攻击。项目成功阻止了用户提交的恶意内容。
@@ -403,7 +407,9 @@
 
     **[⬆ 返回顶部](#table-of-contents)**
     
-3.  ### What are the major features of React? (React的主要特性是什么?)
+3.  ### What are the major features of React? 
+
+    (React的主要特性是什么?)
 
     React的主要特性是:
 
@@ -415,7 +421,9 @@
 
     **[⬆ 返回顶部](#table-of-contents)**
 
-4.  ### What is JSX? (什么是JSX?)
+4.  ### What is JSX? 
+
+    (什么是JSX?)
 
     _JSX_代表_JavaScript XML_，它是ECMAScript的一种类似xml的语法扩展。基本上它只是为React提供了语法糖。`createElement(type, props，…children)`的函数，给了我们JavaScript和HTML的模板语法一样的表达能力。
 
@@ -463,7 +471,9 @@
 
     **[⬆ 返回顶部](#table-of-contents)**
 
-5.  ### What is the difference between Element and Component? (元素和组件的区别是什么?)
+5.  ### What is the difference between Element and Component? 
+
+    (元素和组件的区别是什么?)
 
     _Element_是一个普通对象，描述您希望以DOM节点或其他组件的形式出现在屏幕上的内容。_Elements_可以在它们的props中包含其他的_Elements_。创建React元素的成本很低。一旦元素被创建，它就不能被改变。
 
@@ -515,8 +525,8 @@
 
     **[⬆ 返回顶部](#table-of-contents)**
 
-6.  ### How to create components in React? (如何在React中创建组件?)
-
+6.  ### How to create components in React?
+    (如何在React中创建组件?)
     组件是在React中创建用户界面(UI)的构建块。创建组件有两种可能的方法。
 
     1. **函数组件:**这是创建组件最简单的方法。这些是纯JavaScript函数，接受props object作为第一个参数，并返回React元素来渲染输出:
@@ -539,7 +549,9 @@
 
     **[⬆ 返回顶部](#table-of-contents)**
 
-7.  ### When to use a Class Component over a Function Component? (什么时候使用类组件而不是函数组件?)
+7.  ### When to use a Class Component over a Function Component? 
+    
+    (什么时候使用类组件而不是函数组件?)
 
     在添加hook(即: React 16.8以后)总是建议在React中使用函数组件而不是类组件。因为您可以使用状态、生命周期方法和其他仅在类组件中可用的特性，这些特性也出现在函数组件中。
     
@@ -565,7 +577,9 @@
 
     **[⬆ 返回顶部](#table-of-contents)**
 
-8.  ### What are Pure Components? (什么是纯组件?)
+8.  ### What are Pure Components? 
+
+    (什么是纯组件?)
 
     纯组件是对相同的状态和道具呈现相同输出的组件。在函数组件中，你可以通过封装组件的 `React.memo()` API来实现这些纯组件。这个API通过比较以前的道具和使用浅层比较的方法来防止不必要的重新渲染。因此，它将有助于性能优化。
 
